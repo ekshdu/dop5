@@ -1,0 +1,10 @@
+*{box-sizing:border-box}body{font-family:Arial,sans-serif;margin:0;color:#2b2118;background:#faf6f0}
+header{display:flex;align-items:center;justify-content:space-between;padding:12px 24px;background:#4b2e1e;position:relative}
+#logo{color:#fff;font-size:24px;font-weight:bold;text-decoration:none}nav a{color:#e8d8c8;margin-left:16px;text-decoration:none;padding:4px 8px}
+nav a.active{background:#c98b4f;color:#fff;border-radius:4px}#menu-toggle{display:none;background:none;border:0;color:#fff;font-size:28px}
+main{max-width:800px;margin:32px auto;padding:0 16px}.btn,button{background:#c98b4f;color:#fff;border:0;padding:8px 16px;border-radius:4px;cursor:pointer;text-decoration:none;display:inline-block;font-size:16px}
+.filters button{margin-right:8px}.item,.row{display:flex;justify-content:space-between;align-items:center;padding:10px;border-bottom:1px solid #ddd}.item[hidden]{display:none}
+.row .name{flex:1}.qty{display:inline-block;width:32px;text-align:center}#team{display:flex;gap:16px;flex-wrap:wrap}.team-card{border:1px solid #ddd;padding:12px;flex:1;min-width:150px;background:#fff}
+label{display:block;margin-bottom:12px}input,textarea{display:block;width:100%;padding:8px;margin-top:4px}.promo{margin:16px 0}.promo input{display:inline-block;width:200px}
+.error{color:#b00020}.success{color:#1b7a2f}footer{text-align:center;padding:24px;color:#777}
+@media(max-width:600px){#menu-toggle{display:block}nav{display:none;position:absolute;top:100%;left:0;right:0;background:#4b2e1e;flex-direction:column}nav.open{display:flex}nav a{margin:0;padding:12px 24px}}
